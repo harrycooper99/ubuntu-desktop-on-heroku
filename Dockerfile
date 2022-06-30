@@ -14,15 +14,15 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Set the sources
 # ------------------------------------------------------------
 
-RUN echo 'deb http://ubuntu.mirror.rain.co.za/ubuntu/ devel main restricted universe multiverse\n'\
-'deb http://ubuntu.mirror.rain.co.za/ubuntu/ devel-security main restricted universe multiverse\n'\
-'deb http://ubuntu.mirror.rain.co.za/ubuntu/ devel-updates main restricted universe multiverse\n'\
-'deb http://ubuntu.mirror.rain.co.za/ubuntu/ devel-backports main restricted universe multiverse\n'\
-'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ devel main restricted universe multiverse\n'\
-'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ devel-security main restricted universe multiverse\n'\
-'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ devel-updates main restricted universe multiverse\n'\
-'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ devel-proposed main restricted universe multiverse\n'\
-'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ devel-backports main restricted universe multiverse\n'\
+RUN echo 'deb http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic main restricted universe multiverse\n'\
+'deb http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-security main restricted universe multiverse\n'\
+'deb http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-updates main restricted universe multiverse\n'\
+'deb http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-backports main restricted universe multiverse\n'\
+'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic main restricted universe multiverse\n'\
+'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-security main restricted universe multiverse\n'\
+'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-updates main restricted universe multiverse\n'\
+'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-proposed main restricted universe multiverse\n'\
+'deb-src http://ubuntu.mirror.rain.co.za/ubuntu/ kinetic-backports main restricted universe multiverse\n'\
 '' > /etc/apt/sources.list
 
 # ------------------------------------------------------------
